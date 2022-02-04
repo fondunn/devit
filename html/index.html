@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+    <title>progress bar</title>
+  </head>
+  <body>
+    <div class="progress-bar-container">
+      <div class="progress"></div>
+    </div>
+
+    <div class="container">
+      <div class="table-container">
+        <div class="table-nav">
+            <div class="search-container">
+                <input type="text" class="table-search" placeholder="Filter orders"/>
+                <i class="fas fa-search"></i>
+            </div>
+          <div class="table-buttons">
+            <button class='btn'><i class="fas fa-filter"></i> Filter</button>
+            <button class='btn'><i class="fas fa-columns"></i> Columns</button>
+            <button class='btn'><i class="fas fa-exchange-alt"></i> Sort</button>
+            <button class='btn'><i class="fas fa-ellipsis-h"></i></button>
+          </div>
+        </div>
+        <div class="table-body">
+          <div class="table-body-info">
+            <input type="checkbox"/>
+            <p class='col-order'>Order</p>
+            <p class='col-date'>Date</p>
+            <p class='col-customer'>Customer</p>
+            <p class='col-total'>Total</p>
+            <p class='col-pay-status'>Payment status</p>
+            <p class='col-fulfillment-status'>Fulfillment status</p>
+            <p class='col-items'>Items</p>
+            <p class='col-delivery'>Delivery method</p>
+            <p class='col-tags'>Tags</p>
+          </div>
+
+          <div class="order">
+            <input type="checkbox"/>
+            <p class='col-order'>#1058</p>
+            <p class='col-date'>Thursday at 02:38px</p>
+            <p class='col-customer'>No customer</p>
+            <p class='col-total'>$0.00</p>
+            <p class='col-pay-status'><span class="paid">● paid</span></p>
+            <p class='col-fulfillment-status'><span class='pending'>○ unfulfilled</span></p>
+            <p class='col-items'>1 item</p>
+            <p class='col-delivery'>no delivery method</p>
+            <p class='col-tags'><span class='tag'>333</span></p>
+          </div>
+          <div class="order">
+            <input type="checkbox"/>
+            <p class='col-order'>#1058</p>
+            <p class='col-date'>Thursday at 02:38px</p>
+            <p class='col-customer'>No customer</p>
+            <p class='col-total'>$0.00</p>
+            <p class='col-pay-status'><span class="paid">● paid</span></p>
+            <p class='col-fulfillment-status'><span class='pending'>○ unfulfilled</span></p>
+            <p class='col-items'>1 item</p>
+            <p class='col-delivery'>no delivery method</p>
+            <p class='col-tags'><span class='tag'>333</span></p>
+          </div>
+          <div class="order">
+            <input type="checkbox"/>
+            <p class='col-order'>#1058</p>
+            <p class='col-date'>Thursday at 02:38px</p>
+            <p class='col-customer'>No customer</p>
+            <p class='col-total'>$11,111.00</p>
+            <p class='col-pay-status'><span class="paid">● paid</span></p>
+            <p class='col-fulfillment-status'><span class='pending'>○ unfulfilled</span></p>
+            <p class='col-items'>1 item</p>
+            <p class='col-delivery'>no delivery method</p>
+            <p class='col-tags'><span class='tag'>333</span></p>
+          </div>
+          <div class="order">
+            <input type="checkbox"/>
+            <p class='col-order'>#1058</p>
+            <p class='col-date'>Thursday at 02:38px</p>
+            <p class='col-customer'>No customer</p>
+            <p class='col-total'>$11,111.00</p>
+            <p class='col-pay-status'><span class='pending'>○ Payment pending</span></p>
+            <p class='col-fulfillment-status'><span class='pending'>○ unfulfilled</span></p>
+            <p class='col-items'>2 items</p>
+            <p class='col-delivery'>no delivery method</p>
+            <p class='col-tags'><span class='tag'>333</span></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
